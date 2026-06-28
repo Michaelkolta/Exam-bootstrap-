@@ -11,7 +11,7 @@
 }
 
 .max-w-700 {
-  width: 700px;
+  max-width: 700px;
 }
 
 section {
@@ -310,12 +310,12 @@ nav {
   background-image: var(--bg-image-r);
 }
 .badge-image-right {
-  transform: translate(50%, -50%);
+  transform: translate(15%, -15%);
   background-image: var(--bg-image-r);
 }
 .home-layer {
   background-color: #f7d9cb;
-  transform: rotate(5deg);
+  transform: rotate(3deg);
   border-radius: 10px;
 }
 
