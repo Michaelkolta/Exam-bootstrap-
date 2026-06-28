@@ -306,7 +306,7 @@ nav {
 }
 
 .badge-image-left {
-  transform: translate(-50%, 50%);
+  transform: translate(-15%, 15%);
   background-image: var(--bg-image-r);
 }
 .badge-image-right {
@@ -661,6 +661,33 @@ nav {
   width: 40px;
   height: 10px;
 }
+
+@media (max-width: 768px) {
+  #testimonials .carousel-item {
+    padding: 1.5rem;
+  }
+
+  #testimonials .inner-upperpart,
+  #testimonials .inner-lowerpart {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  #testimonials .right-number {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  #testimonials .client-img-info img {
+    width: 70px;
+  }
+
+  #testimonials .fs-5 {
+    font-size: 1rem;
+  }
+}
+
 
 /**********************testimonials*********************** */
 /* ********************** FAQ************************* */
